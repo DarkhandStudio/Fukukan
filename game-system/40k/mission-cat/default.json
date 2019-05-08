@@ -1,0 +1,12 @@
+{
+    "name": "Kill them All",
+    "uid": "1",
+    "maxRound": "6",
+    "victory": [
+        "1000",
+        "500",
+        "0"
+    ],
+    "scoring": [],
+    "settings": []
+}

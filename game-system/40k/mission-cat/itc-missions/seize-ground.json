@@ -1,0 +1,7 @@
+{
+    "name": "Seize Grounds",
+    "desc": "",
+    "deploy": "",
+    "obj": "<b>Seize Ground Bonus Point</b>: If a player holds or contests 5 or more objectives at the end of their player turn, gain 1 point.",
+    "settings": []
+}
