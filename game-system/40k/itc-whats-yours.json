@@ -1,0 +1,13 @@
+{
+    "version": "0",
+    "type": "mission",
+    "id": "5",
+    "content": {
+        "name": "What’s Yours Is Mine",
+        "desc": "",
+        "deploy": "",
+        "obj": "<b>What’s Yours Is Mine Bonus Point</b>: If a player controls both of the objectives they placed on the table, they earn 1 point.",
+        "settings": [],
+        "scoring": []
+    }
+}

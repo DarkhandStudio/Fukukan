@@ -1,0 +1,131 @@
+{
+    "version": "0",
+    "type": "rule",
+    "id": "3",
+    "content": {
+        "name": "ITC Champion Mission",
+        "uid": "itc",
+        "maxRound": "6",
+        "victory": [
+            "1000",
+            "500",
+            "0"
+        ],
+        "scoring": [
+            {
+                "name": "Unit killed",
+                "type": "round",
+                "mode": "manual",
+                "range": "0-1000",
+                "fn": {
+                    "type": "self",
+                    "vars": [
+                        "1"
+                    ],
+                    "body": "return (vals[1] > 0) ? 1 : 0;"
+                },
+                "id": "1"
+            },
+            {
+                "name": "Objective Held",
+                "type": "round",
+                "mode": "manual",
+                "range": "0-6",
+                "fn": {
+                    "type": "self",
+                    "vars": [
+                        "2"
+                    ],
+                    "body": "return (vals[1] > 0) ? 1 : 0;"
+                },
+                "id": "2"
+            },
+            {
+                "name": "Kill More",
+                "type": "round",
+                "mode": "auto",
+                "range": "0-1",
+                "fn": {
+                    "type": "team",
+                    "vars": [
+                        "1"
+                    ],
+                    "body": "let flag = 1; vals[2].forEach(val => {if(val >= vals[1]) { flag = 0; }}); return flag;"
+                },
+                "id": "3"
+            },
+            {
+                "name": "Hold More",
+                "type": "round",
+                "mode": "auto",
+                "range": "0-1",
+                "fn": {
+                    "type": "team",
+                    "vars": [
+                        "2"
+                    ],
+                    "body": "let flag = 1; vals[2].forEach(val => {if(val >= vals[1]) { flag = 0; }}); return flag;"
+                },
+                "id": "4"
+            },
+            {
+                "name": "Objective Bonus",
+                "type": "round",
+                "mode": "manual",
+                "range": "0-1",
+                "fn": {},
+                "id": "5"
+            },
+            {
+                "name": "Secondary 1",
+                "type": "global",
+                "mode": "manual",
+                "range": "0-4",
+                "fn": {},
+                "id": "6"
+            },
+            {
+                "name": "Secondary 2",
+                "type": "global",
+                "mode": "manual",
+                "range": "0-4",
+                "fn": {},
+                "id": "7"
+            },
+            {
+                "name": "Secondary 3",
+                "type": "global",
+                "mode": "manual",
+                "range": "0-4",
+                "fn": {},
+                "id": "8"
+            }
+        ],
+        "settings": [
+            {
+                "name": "Secondary 1",
+                "type": "list",
+                "params": "Headhunter,Kingslayer$,Marked for Death$,Titan Slayers,Gang Busters,Big Game Hunter,Pick Your Poison$,The Butcher’s Bill,The Reaper,Recon,Behind Enemy Lines,Ground Control,King of the Hill,Engineers$,Old School",
+                "default": "",
+                "extra": "true"
+            },
+            {
+                "name": "Secondary 2",
+                "type": "list",
+                "params": "Headhunter,Kingslayer$,Marked for Death$,Titan Slayers,Gang Busters,Big Game Hunter,Pick Your Poison$,The Butcher’s Bill,The Reaper,Recon,Behind Enemy Lines,Ground Control,King of the Hill,Engineers$,Old School",
+                "default": "",
+                "extra": "true"
+            },
+            {
+                "name": "Secondary 3",
+                "type": "list",
+                "params": "Headhunter,Kingslayer$,Marked for Death$,Titan Slayers,Gang Busters,Big Game Hunter,Pick Your Poison$,The Butcher’s Bill,The Reaper,Recon,Behind Enemy Lines,Ground Control,King of the Hill,Engineers$,Old School",
+                "default": "",
+                "extra": "true"
+            }
+        ],
+        "missionIds": [
+            "5", "6", "7", "8", "9", "10" 
+        ]
+    }
+}

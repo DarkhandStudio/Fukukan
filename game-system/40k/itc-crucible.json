@@ -1,0 +1,13 @@
+{
+    "version": "0",
+    "type": "mission",
+    "id": "10",
+    "content": {
+        "name": "Crucible of Champions",
+        "desc": "",
+        "deploy": "",
+        "obj": "Crucible of Champions Bonus Point: If a player has three models with the character keyword in scoring range of three different objectives at the end of their player turn, they score 1 point.",
+        "settings": [],
+        "scoring": []
+    }
+}

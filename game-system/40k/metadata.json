@@ -1,7 +1,12 @@
 {
-    "name": "40K Data file",
-    "description": "Warhammer 40K Game data information",
-    "contributors": [
-        "Eltokysan"
-    ]
+    "version": "0",
+    "type": "metadata",
+    "id": "1",
+    "content": {
+        "name": "40K",
+        "description": "Warhammer 40K Game data information",
+        "contributors": [
+            "Eltokysan"
+        ]
+    }
 }
