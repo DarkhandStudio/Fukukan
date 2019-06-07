@@ -8,6 +8,7 @@
         "deploy": "",
         "obj": "Precious Cargo Bonus Point: If a player holds their opponent’s Priority Objective at the end of their player turn, score 1 bonus point.",
         "settings": [],
-        "scoring": []
+        "scoring": [],
+        "deployment": ["0", "1", "2" , "3", "4", "5"]
     }
 }

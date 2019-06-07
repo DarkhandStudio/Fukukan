@@ -8,6 +8,7 @@
         "deploy": "",
         "obj": "<b>What’s Yours Is Mine Bonus Point</b>: If a player controls both of the objectives they placed on the table, they earn 1 point.",
         "settings": [],
-        "scoring": []
+        "scoring": [],
+        "deployment": ["0", "1", "2" , "3", "4", "5"]
     }
 }

@@ -8,6 +8,7 @@
         "deploy": "",
         "obj": "Cut to the Heart Bonus Point: If a player controls the center objective and their opponent’s objective at the end of their player turn, they gain 1 point.",
         "settings": [],
-        "scoring": []
+        "scoring": [],
+        "deployment": ["0", "1", "2" , "3", "4", "5"]
     }
 }
