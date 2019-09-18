@@ -1,0 +1,31 @@
+{
+    "version": "1",
+    "type": "mission",
+    "id": "321",
+    "content": {
+        "name": "Narrow the Search",
+        "desc": "Orbital scanners are locating a powerful relic. You must secure the area while they narrow their scans to its exact location, for it is hidden by a disruptive null field. The enemy is hunting it too, however, and must be driven away from the final location.< br/><b>NULL FIELD</b>Invulnerable saving throws cannot be made for units that are within 12\" of the objective marker",
+        "deploy": "Create the battlefield and set up terrain. The players then place one objective marker in the centre of the battlefield",
+        "obj": "At the end of the game, the player with the most victory points is the winner. If both players have the same, the game is a draw",
+        "settings": [],
+        "scoring": [
+            {
+                "name": "Zeroing-in",
+                "desc": "At the end of each battle round, the player who controls the objective marker scores 1 victory point. A player controls the objective marker if they have more models within the specified distance of it than their opponent does. At the end of battle round 1, this distance is 18\", and it shrinks by 3\" at the end of each battle round, to a minimum of 3\". So the player with the most models within 15\" of the centre of the objective marker at the end of battle round 2, within 12\" at the end of battle round 3, and so on, controls the objective marker.",
+                "type": "round",
+                "mode": "manual",
+                "range": "0-7",
+                "fn": {},
+                "id": "3211"
+            }
+        ],
+        "deployment": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    }
+}

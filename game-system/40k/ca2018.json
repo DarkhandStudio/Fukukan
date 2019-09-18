@@ -1,0 +1,80 @@
+{
+    "version": "1",
+    "type": "rule",
+    "id": "30",
+    "content": {
+        "name": "Chapter Approved 2018",
+        "uid": "ca2018",
+        "maxRound": "7",
+        "victory": [
+            "0",
+            "0",
+            "0"
+        ],
+        "scoring": [
+            {
+                "name": "Slay the Warlord",
+                "desc": "If the enemy Warlord has been slain during the battle, you score 1 victory point",
+                "type": "global",
+                "mode": "manual",
+                "range": "0-1",
+                "fn": {},
+                "id": "310"
+            },
+            {
+                "name": "First Strike",
+                "desc": "You score 1 victory point if any units from your opponent’s army were destroyed during the first battle round", 
+                "type": "global",
+                "mode": "manual",
+                "range": "0-1",
+                "fn": {},
+                "id": "311"
+            },
+            {
+                "name": "Linebreaker",
+                "desc": "If, at the end of the battle, you have at least one model within the enemy’s deployment zone, you score 1 victory point",
+                "type": "global",
+                "mode": "manual",
+                "range": "0-1",
+                "fn": {},
+                "id": "312"
+            }
+        ],
+        "settings": [],
+        "missionIds": [
+            "320", "321", "322", "323", "324", "325", "326", "327", "328", "329", "32a", "32b"  
+        ],
+        "deployment": [
+            {
+                "uid": "0",
+                "file": "deploy-01.jpg",
+                "name": "Spearhead Assault"
+            },
+            {
+                "uid": "1",
+                "file": "deploy-02.jpg",
+                "name": "Dawn Of War"
+            },
+            {
+                "uid": "2",
+                "file": "deploy-03.jpg",
+                "name": "Search And Destroy"
+            },
+            {
+                "uid": "3",
+                "file": "deploy-04.jpg",
+                "name": "Hammer And Anvil"
+            },
+            {
+                "uid": "4",
+                "file": "deploy-05.jpg",
+                "name": "Front Line Assault"
+            },
+            {
+                "uid": "5",
+                "file": "deploy-06.jpg",
+                "name": "Vanguard Strike"
+            }
+        ]
+    }
+}

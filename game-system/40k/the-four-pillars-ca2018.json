@@ -1,0 +1,84 @@
+{
+    "version": "1",
+    "type": "mission",
+    "id": "323",
+    "content": {
+        "name": "The Four Pillars",
+        "desc": "Strange and ancient alien pillars dominate this battlefield. While these are in your possession, their energies can be siphoned off and stored to power weapons of unimaginable destruction",
+        "deploy": "First the players place four objective markers as follows. Draw imaginary lines from the centre of the battlefield towards each corner of the battlefield and place an objective marker 15\" from the centre of the battlefield along each of these lines.",
+        "obj": "At the end of the game, the player with the most victory points is the winner. If both players have the same, the game is a draw",
+        "settings": [],
+        "scoring": [
+            {
+                "name": "Objective Held",
+                "type": "round",
+                "from": "",
+                "mode": "manual",
+                "range": "0-4",
+                "fn": {
+                    "type": "self",
+                    "vars": [
+                        "3230"
+                    ],
+                    "body": "return 0;"
+                },
+                "id": "3230"
+            },
+            {
+                "name": "Syphon Power",
+                "desc": "At the end of each battle round, if one player controls more objective markers than their opponent, they score 1 victory point. If they control all four objective markers, they score 3 victory points instead. A player controls an objective marker if they have more models with the Troops Battlefield Role within 3\" of it than their opponent does (other units cannot control objective markers; ignore them when determining who controls each objective marker in this mission)",
+                "type": "round",
+                "from": "",
+                "mode": "auto",
+                "range": "0-3",
+                "fn": {
+                    "type": "team",
+                    "vars": [
+                        "3230"
+                    ],
+                    "body": "let flag = 1; vals[2].forEach(val => {if(val >= vals[1]) { flag = 0; }}); if(flag) { return vals[1] === 4 ? 3 : flag; } else { return 0; }"
+                },
+                "id": "3231"
+            },
+            {
+                "name": "Unit killed",
+                "type": "round",
+                "from": "",
+                "mode": "manual",
+                "range": "0-100",
+                "fn": {
+                    "type": "self",
+                    "vars": [
+                        "3232"
+                    ],
+                    "body": "return 0;"
+                },
+                "id": "3232"
+            },
+            {
+                "name": "No Prisoners",
+                "desc": "At the end of each battle round, a player scores 1 victory point if more units from their opponent’s army were destroyed during that battle round than from their own army.",
+                "type": "round",
+                "from": "",
+                "mode": "auto",
+                "range": "0-6",
+                "fn": {
+                    "type": "team",
+                    "vars": [
+                        "3232"
+                    ],
+                    "body": "let flag = 1; vals[2].forEach(val => {if(val >= vals[1]) { flag = 0; }}); return flag;"
+                },
+                "id": "3233"
+            }
+        ],
+        "deployment": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    }
+}

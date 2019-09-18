@@ -1,0 +1,31 @@
+{
+    "version": "1",
+    "type": "mission",
+    "id": "320",
+    "content": {
+        "name": "Vital Intelligence",
+        "desc": "Important tactical information must be captured. Several key data-terminals have been detected, but they have been damaged in the fighting and you cannot reliably tell when each will be processing the intelligence you need",
+        "deploy": "The players first place five objective markers as follows: <li />the first objective marker is placed in the centre of the battlefield. <li />Next, four imaginary lines are drawn between the centre of the battlefield and each corner of the battlefield: another objective marker is placed halfway along each of these lines, until there are five objective markers on the battlefield in total. <br />The players then roll off and the winner individually numbers the objective markers 1 through 5. <br />Once all the objective markers have been placed and numbered, the players then create the rest of the battlefield and set up terrain.",
+        "obj": "At the end of the game, the player with the most victory points is the winner. If both players have the same, the game is a draw",
+        "settings": [],
+        "scoring": [
+            {
+                "name": "Capture the Data",
+                "desc": "At the start of each battle round, the player who had the first turn rolls a D6 (this cannot be re-rolled for any reason). On a 6, all objective markers are active for that battle round. On any other result, the objective marker which corresponds to the number rolled is active for that battle round. At the end of the battle round, each player scores a number of victory points equal to the number of objective markers they control. Each objective marker is worth 1 victory point; active objective markers are worth 2 victory points instead. In this mission, a player controls an active objective marker if they have more models within 3\" of it than their opponent does",
+                "type": "round",
+                "mode": "manual",
+                "range": "0-84",
+                "fn": {},
+                "id": "3201"
+            }
+        ],
+        "deployment": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    }
+}

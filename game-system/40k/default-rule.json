@@ -13,6 +13,38 @@
         ],
         "scoring": [],
         "settings": [],
-        "missionIds": []
+        "missionIds": [],
+        "deployment": [
+            {
+                "uid": "0",
+                "file": "deploy-01.jpg",
+                "name": "Spearhead Assault"
+            },
+            {
+                "uid": "1",
+                "file": "deploy-02.jpg",
+                "name": "Dawn Of War"
+            },
+            {
+                "uid": "2",
+                "file": "deploy-03.jpg",
+                "name": "Search And Destroy"
+            },
+            {
+                "uid": "3",
+                "file": "deploy-04.jpg",
+                "name": "Hammer And Anvil"
+            },
+            {
+                "uid": "4",
+                "file": "deploy-05.jpg",
+                "name": "Front Line Assault"
+            },
+            {
+                "uid": "5",
+                "file": "deploy-06.jpg",
+                "name": "Vanguard Strike"
+            }
+        ]
     }
 }

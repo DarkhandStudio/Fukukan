@@ -1,0 +1,32 @@
+{
+    "version": "1",
+    "type": "mission",
+    "id": "325",
+    "content": {
+        "name": "Beachhead",
+        "desc": "You must capture a key point in enemy territory while securing your own borders against their attacks. If you seize the enemy’s territory but lose your own, there is no advantage gained.",        
+        "deploy": "Create the battlefield and set up terrain. Next, the players place one objective marker in the centre of the battlefield",
+        "obj": "At the end of the game, the player with the most victory points is the winner. If both players have the same, the game is a draw.",
+        "settings": [],
+        "scoring": [
+            {
+                "name": "Push them back",
+                "desc": "Starting from the second battle round, each player scores a number of victory points for each objective marker they control at the start of their turn. A player scores 1 victory point if they control the objective marker in their own deployment zone, 2 victory points if they control the objective marker in the centre of the battlefield, and 3 victory points if they control the objective marker in their opponent’s deployment zone. A player controls an objective marker if they have more models within 3\" of it than their opponent does",
+                "type": "round",
+                "from": "2",
+                "mode": "manual",
+                "range": "0-6",
+                "fn": {},
+                "id": "3240"
+            }
+        ],
+        "deployment": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    }
+}

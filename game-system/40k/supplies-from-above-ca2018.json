@@ -1,0 +1,32 @@
+{
+    "version": "1",
+    "type": "mission",
+    "id": "324",
+    "content": {
+        "name": "Supplies From Above",
+        "desc": "Valuable supplies are being delivered in slow-fall drop canisters. You must secure the landing sites, although these are hard to judge from the ground, so your forces must be ready to react and secure them while driving the enemy away from these locations",        
+        "deploy": "Create the battlefield and set up terrain. The players then roll off and, starting with the winner, alternate placing objective markers until four have been placed. Each objective marker can be placed anywhere on the battlefield, as long as each is more than 12\" from any other objective marker and more than 6\" from the edge of the battlefield",
+        "obj": "At the end of the game, the player with the most victory points is the winner. If both players have the same, the game is a draw. <br /><br /><strongDRIFTING ON THE WIND<strong> At the start of each battle round, starting with the player who has the first turn, alternate picking objective markers; for each objective marker, each player rolls a D6. The player who scores highest can move that objective marker up to 3\" (they can be moved over models and terrain, but they cannot end the move on top of models, and cannot leave the battlefield – if they would, reduce the distance they are moved by the minimum amount necessary). If the results are tied, that marker is not moved this battle round. The players should then repeat this process for each of the other objective marker",
+        "settings": [],
+        "scoring": [
+            {
+                "name": "Secure Supplies",
+                "desc": "Starting from the second battle round, each player scores 1 victory point for each objective marker they control at the start of their turn. A player controls an objective marker if they have more models within 3\" of it than their opponent does. However, if only one player has models that can <strong>FLY</strong> (excluding those with the Flyer Battlefield Role) within 3\" of the objective marker, they control it, regardless of the number of nearby enemy models",
+                "type": "round",
+                "from": "2",
+                "mode": "manual",
+                "range": "0-6",
+                "fn": {},
+                "id": "3240"
+            }
+        ],
+        "deployment": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    }
+}

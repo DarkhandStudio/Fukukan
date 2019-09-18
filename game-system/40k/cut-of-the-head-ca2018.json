@@ -1,0 +1,42 @@
+{
+    "version": "1",
+    "type": "mission",
+    "id": "322",
+    "content": {
+        "name": "Cut off the Head",
+        "desc": "Your commanders were gathering for a crucial tactical meeting when battle was joined. Your leaders must survive to preserve the information they carry, or else transmit it back to headquarters, whilst preventing the enemy commanders from doing so",
+        "deploy": "Create the battlefield and set up terrain. The players then place one objective marker in the centre of the battlefield. <br />Each player then allocates 3 Intel Points, as evenly as possible, between the CHARACTERSin their army, and notes this down on their army roster. If your army has no CHARACTERS, 1 Intel Point is instead allocated to your Warlord.",
+        "obj": "At the end of the game, the player with the most victory points is the winner. If both players have the same, the game is a draw",
+        "settings": [],
+        "scoring": [
+            {
+                "name": "Crucial Intel",
+                "desc": "At the end of the third battle round, and at the end of each battle round thereafter, each player adds up the number of Intel Points allocated to models from their army that are currently on the battlefield, or that are currently embarked within a <strong>TRANSPORT</strong> that is on the battlefield; this is the number of victory points that player scores.",
+                "type": "round",
+                "from": "3",
+                "mode": "manual",
+                "range": "0-15",
+                "fn": {},
+                "id": "3221"
+            },
+            {
+                "name": "Transmit Intel",
+                "desc": "Starting from the second battle round, a player scores 1 victory point if they control the objective marker at the start of their turn. A player controls this objective marker if they have more <strong>CHARACTERS</strong> that have had Intel Points allocated to them within 3\" of the objective marker than their opponent does (other units cannot control objective markers; ignore them when determining who controls the objective marker in this mission)",
+                "type": "round",
+                "from": "2",
+                "mode": "manual",
+                "range": "0-6",
+                "fn": {},
+                "id": "3222"
+            }
+        ],
+        "deployment": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    }
+}
