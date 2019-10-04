@@ -1,12 +1,13 @@
 {
     "version": "0",
     "type": "mission",
-    "id": "6",
+    "id": "210",
     "content": {
         "name": "Seize Grounds",
         "desc": "",
         "deploy": "",
-        "obj": "<b>Seize Ground Bonus Point</b>: If a player holds or contests 5 or more objectives at the end of their player turn, gain 1 point.",
+        "media": "seize-ground.png",
+        "obj": "<b>Seize Ground Bonus Point</b>: If a player holds or contests 5 or more objectives at the end of their player turn, gain 1 point.<br /><i>For an objective to be contested, both players have models within 3” of it but neither controls it. This typically occurs because both players have an equal number of models within range of the objective and either none of them are Objective Secured, or all of them are.</i>",
         "settings": [],
         "scoring": [],
         "deployment": ["0", "1", "2" , "3", "4", "5"]
