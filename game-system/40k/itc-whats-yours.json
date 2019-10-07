@@ -1,11 +1,12 @@
 {
     "version": "0",
     "type": "mission",
-    "id": "5",
+    "id": "240",
     "content": {
         "name": "What’s Yours Is Mine",
-        "desc": "",
-        "deploy": "",
+        "media": "whats-yours-is-mine.jpg",
+        "desc": "<b>5 objectives</b>: 1 objective is placed in the middle of the table. Next, starting with the player that did not choose their deployment zone, each player places 1 objective anywhere on the table more than 6\" from a table edge and 12\" from another objective. Each player then places 1 objective in their opponent’s deployment zone more than 6\" from a table edge and 12\" from another objective.",
+        "deploy": "<li>The players roll off and the winner randomly determines which of the standard deployment maps is used in the battle (see the Warhammer 40,000 rulebook) and picks one of the deployment zones for their army. Their opponent uses the other deployment zone.</li><br/><li>The player who did not pick their deployment zone then chooses to deploy their entire army first or second.</li><br/><li>The player that deployed first goes first unless the player that deployed second seizes the initiative.</li>",
         "obj": "<b>What’s Yours Is Mine Bonus Point</b>: If a player controls both of the objectives they placed on the table, they earn 1 point.",
         "settings": [],
         "scoring": [],

@@ -1,12 +1,13 @@
 {
     "version": "0",
     "type": "mission",
-    "id": "7",
+    "id": "250",
     "content": {
         "name": "Precious Cargo",
+        "media": "precious-cargo.jpg",
         "desc": "",
-        "deploy": "",
-        "obj": "Precious Cargo Bonus Point: If a player holds their opponent’s Priority Objective at the end of their player turn, score 1 bonus point.",
+        "deploy": "Before the game begins, each player chooses a separate objective--their <span style=\"color: red\">Priority Objective</span>--to defend starting with the player that chose their deployment zone first. After deployment zones have been determined but before deployment, in the order established above, each player may move their <span style=\"color: red\">Priority Objective</span> in any direction up to 6\" from its original position so long as it is more than 6\" from a table edge and 12\" from another objective.",
+        "obj": "<b>Precious Cargo Bonus Point</b>: If a player holds their opponent’s <span style=\"color: red\">Priority Objective</span> at the end of their player turn, score 1 bonus point.",
         "settings": [],
         "scoring": [],
         "deployment": ["0", "1", "2" , "3", "4", "5"]

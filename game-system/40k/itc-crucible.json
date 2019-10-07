@@ -1,12 +1,13 @@
 {
     "version": "0",
     "type": "mission",
-    "id": "10",
+    "id": "260",
     "content": {
         "name": "Crucible of Champions",
+        "media": "crucible-of-champions.jpg",
         "desc": "",
-        "deploy": "",
-        "obj": "Crucible of Champions Bonus Point: If a player has three models with the character keyword in scoring range of three different objectives at the end of their player turn, they score 1 point.",
+        "deploy": "<li>The players roll off and the winner randomly determines which of the standard deployment maps is used in the battle (see the Warhammer 40,000 rulebook) and picks one of the deployment zones for their army. Their opponent uses the other deployment zone.</li><br/><li>The player who did not pick their deployment zone then chooses to deploy their entire army first or second.</li><br/><li>The player that deployed first goes first unless the player that deployed second seizes the initiative.</li>",
+        "obj": "<b>Crucible of Champions Bonus Point</b>: If a player has three models with the character keyword in scoring range of three different objectives at the end of their player turn, they score 1 point.",
         "settings": [],
         "scoring": [],
         "deployment": ["0", "1", "2" , "3", "4", "5"]
