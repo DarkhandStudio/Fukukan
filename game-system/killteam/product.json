@@ -1,4 +1,9 @@
 {
-    "manufacturer": "Games Workshop",
-    "website": "http://www.games-workshop.com"
+    "version": "0",
+    "type": "product",
+    "id": "0",
+    "content": {
+        "manufacturer": "Games Workshop",
+        "website": "http://www.games-workshop.com"
+    }
 }
